@@ -18,18 +18,6 @@ A simple yet powerful **Retrieval-Augmented Generation (RAG) Chatbot** built wit
 - Query the vectorstore using a question-answering chain powered by LangChain.
 - Interactive web UI using Streamlit.
 
-
-##  Project Structure
-
-
-├── app.py                 # Streamlit frontend
-├── rag\_backend.py         # Core RAG logic (ingestion, embeddings, chain)
-├── requirements.txt       # Python dependencies
-├── .env                   # Your API keys (not committed)
-├── data/                  # Uploaded PDF files
-└── README.md              # Project documentation
-
-
 ## How It Works
 
 1. Upload a PDF via the UI.
